@@ -53,13 +53,12 @@ async def async_non_blocking():
 ```bash
 git clone https://github.com/aftabk-gh/fastapi-async-vs-sync.git
 cd fastapi-async-vs-sync
-ΩΩ
-# install uv if you don't have it
+
+# install uv (if not installed)
 pip install uv
 
-uv venv
-source .venv/bin/activate
-uv pip install fastapi uvicorn locust
+# create environment and install dependencies from lockfile
+uv sync
 ```
 ### Run the server
 
