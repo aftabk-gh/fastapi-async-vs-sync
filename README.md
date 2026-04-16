@@ -26,11 +26,11 @@ async def async_non_blocking():
 
 ## Load Test Results (100 concurrent users)
 
-| Endpoint | RPS | Avg Response | Max Response | Requests Served | Full Report |
-|---|---|---|---|---|---|
-| `/async-blocking/` | 0.33 | 171s | 351s | 117 | [Locust HTML report](./docs/reports/async_blocking_report.html) |
-| `/blocking/` | 13.27 | 7s | 9s | 640 | [Locust HTML report](./docs/reports/blocking_report.html) |
-| `/async/` | **33.14** | **3s** | **3.1s** | **2000** | [Locust HTML report](./docs/reports/async_report.html) |
+| Endpoint | Time  | RPS   | Avg Response | Max Response | Requests Served | Full Report |
+|---|-------|-------|--------------|---------|-----------------|---|
+| `/async-blocking/` | 2 min | 0.33  | 59s          | 117s    | 39              | [Locust HTML report](https://aftabk-gh.github.io/fastapi-async-vs-sync/reports/async_blocking.html) |
+| `/blocking/` | 2 min | 13.27 | 6s           | 9s      | 600             | [Locust HTML report](https://aftabk-gh.github.io/fastapi-async-vs-sync/reports/blocking.html) |
+| `/async/` | 2 min | 22.04 | 3s           | 3.1s    | 2678            | [Locust HTML report](https://aftabk-gh.github.io/fastapi-async-vs-sync/reports/async.html) |
 
 
 ## What This Proves
@@ -53,7 +53,7 @@ async def async_non_blocking():
 ```bash
 git clone https://github.com/aftabk-gh/fastapi-async-vs-sync.git
 cd fastapi-async-vs-sync
-
+ΩΩ
 # install uv if you don't have it
 pip install uv
 
