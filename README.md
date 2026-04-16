@@ -29,7 +29,7 @@ async def async_non_blocking():
 | Endpoint | Time  | RPS   | Avg Response | Max Response | Requests Served | Full Report |
 |---|-------|-------|--------------|---------|-----------------|---|
 | `/async-blocking/` | 2 min | 0.33  | 59s          | 117s    | 39              | [Locust HTML report](https://aftabk-gh.github.io/fastapi-async-vs-sync/reports/async_blocking.html) |
-| `/blocking/` | 2 min | 13.27 | 6s           | 9s      | 600             | [Locust HTML report](https://aftabk-gh.github.io/fastapi-async-vs-sync/reports/blocking.html) |
+| `/blocking/` | 2 min | 13.27 | 6s           | 9s      | 1600            | [Locust HTML report](https://aftabk-gh.github.io/fastapi-async-vs-sync/reports/blocking.html) |
 | `/async/` | 2 min | 22.04 | 3s           | 3.1s    | 2678            | [Locust HTML report](https://aftabk-gh.github.io/fastapi-async-vs-sync/reports/async.html) |
 
 
